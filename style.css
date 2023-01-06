@@ -1,0 +1,99 @@
+/* common style  */
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+.pl {
+  padding-right: 50px;
+}
+
+.primary-btn {
+}
+
+/* hero section style  */
+header {
+  background-image: url(/images/banner/banner2.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  height: 100vh;
+}
+.hero-section {
+  width: 40%;
+  padding-right: 10%;
+}
+.hero-title {
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+.hero-description {
+  margin-bottom: 30px;
+  color: #444343;
+}
+.hero-btn {
+  background-color: #f15b22;
+  padding: 15px 20px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+main {
+  margin: 0 200px;
+}
+
+/* failure section style  */
+
+.failure-section {
+  display: flex;
+  margin-top: 100px;
+}
+.failure-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.failure-img img {
+  width: 90%;
+}
+.failure-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 65px;
+}
+.failure-title {
+  margin-bottom: 20px;
+  font-size: 35px;
+  padding-right: 100px;
+}
+.failur-description {
+  margin-bottom: 20px;
+  line-height: 2;
+  color: #444343;
+}
+.check-icons {
+  display: flex;
+  flex-direction: column;
+}
+.check-icon {
+  display: flex;
+  margin-bottom: 10px;
+}
+.check-icon i {
+  margin-right: 10px;
+  color: #16d887;
+  margin-top: 2px;
+}
+.check-icon p {
+  color: #444343;
+}
