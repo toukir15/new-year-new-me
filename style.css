@@ -97,3 +97,19 @@ main {
 .check-icon p {
   color: #444343;
 }
+
+/* plan section style  */
+.plan-title {
+  text-align: center;
+  margin-top: 55px;
+  font-size: 35px;
+}
+.plans {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.plan p {
+  color: #444343;
+  margin-top: 10px;
+}
