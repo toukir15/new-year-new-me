@@ -70,6 +70,7 @@ main {
 }
 .failure-img img {
   width: 90%;
+  border-radius: 10px;
 }
 .failure-info {
   width: 50%;
@@ -85,7 +86,7 @@ main {
 }
 .failur-description {
   margin-bottom: 20px;
-  line-height: 2;
+  line-height: 1.5;
   color: #444343;
 }
 .check-icons {
@@ -115,10 +116,16 @@ main {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+  align-items: center;
+}
+.plan-img {
+  display: flex;
+  justify-content: center;
 }
 .plan p {
   color: #444343;
   margin-top: 10px;
+  text-align: center;
 }
 
 /* plan section  */
@@ -158,7 +165,7 @@ footer {
   width: 50%;
 }
 .future p {
-  color: #ffffff;
+  color: #b2b2b2;
   margin-bottom: 10px;
 }
 .icons {
@@ -172,7 +179,7 @@ footer {
   padding-left: 300px;
 }
 .subscribe p {
-  color: #ffffff;
+  color: #b2b2b2;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
