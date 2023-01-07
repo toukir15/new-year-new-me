@@ -10,13 +10,12 @@
 
 .primary-btn {
   background-color: #ffffff;
-  padding: 12px 20px;
+  padding: 10px 20px;
   border: 0;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   color: #f15b22;
-  margin-top: 20px;
 }
 
 /* hero section style  */
@@ -132,7 +131,7 @@ main {
     url(/images/watch.png);
   height: 40vh;
   background-size: cover;
-  margin-top: 100px;
+  margin: 100px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -143,4 +142,46 @@ main {
 .positive h2 {
   font-size: 35px;
   padding-right: 420px;
+  margin-bottom: 20px;
+}
+
+/* footer section style  */
+footer {
+  background-color: #151414;
+  padding: 50px 0;
+}
+.footer-section {
+  margin: 0 200px;
+  display: flex;
+}
+.future {
+  width: 50%;
+}
+.future p {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.icons {
+  margin-top: 25px;
+}
+.icons img {
+  margin-right: 10px;
+}
+.subscribe {
+  width: 50%;
+  padding-left: 300px;
+}
+.subscribe p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#email-input {
+  padding: 10px 60px 10px 10px;
+  margin-top: 10px;
+  background-color: #151414;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
