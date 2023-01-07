@@ -4,10 +4,6 @@
   font-family: "Work Sans", sans-serif;
 }
 
-.pl {
-  padding-right: 50px;
-}
-
 .primary-btn {
   background-color: #ffffff;
   padding: 10px 20px;
@@ -17,7 +13,9 @@
   font-weight: 600;
   color: #f15b22;
 }
-
+hr {
+  margin: 25px 200px;
+}
 /* hero section style  */
 header {
   background-image: url(/images/banner/banner2.png);
@@ -63,28 +61,28 @@ main {
   display: flex;
   margin-top: 100px;
 }
-.failure-img {
+.section-img {
   width: 50%;
   display: flex;
   justify-content: center;
 }
-.failure-img img {
+.section-img img {
   width: 90%;
   border-radius: 10px;
 }
-.failure-info {
+.section-info {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 65px;
 }
-.failure-title {
+.section-title {
   margin-bottom: 20px;
   font-size: 35px;
   padding-right: 100px;
 }
-.failur-description {
+.section-description {
   margin-bottom: 20px;
   line-height: 1.5;
   color: #444343;
